@@ -122,6 +122,7 @@ section a {
     width: 15%;
     text-decoration: none;
     padding: 10px;
+    background-color: rgb(232, 230, 230);
 }
 
 section a img {

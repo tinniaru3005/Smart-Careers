@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+#SmartCareers {
+    width: 30%;
+}
+
+header {
+    background-color: #042449;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+.highlight { background-color: yellow }
+
+#searchBar {
+    height: 20%;
+    padding: 8px;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todolist {
+    width: 50%;
+    border: 2px solid white;
+    padding: 8px;
+}
+.todolist li {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    word-break: break-word;
+}
+li button {
+    float: right;
+    margin-left: 5px;
+    border: 0px solid transparent;
+    border: 1px solid white;
+    transition: 0.2s all ease-in-out;
+}
+li button:hover {
+    background-color: #042449;
+    color: white;
+}
+#inputtask {
+    padding: 8px;
+    border: 0px solid transparent;
+    margin-right: 10px;
+    color: black;
+}
+#inputtask:focus {
+    outline: none;
+}
+#addbutton,
+  .clear {
+    color: #042449;
+    border: 0px solid transparent;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.3s all ease-in-out;
+}
+#addbutton:hover,
+  .clear:hover {
+    background-color: #042449;
+    color: white;
+    transform: scale(0.97);
+}
+.d-none {
+    display: none;
+}
+li span:focus {
+    background-color: white;
+    color: black;
+    outline: none;
+    padding: 0 5px;
+    display: inline-block;
+    min-width: 300px;
+    max-width: 400px;
+}
+.link {
+    text-align: center;
+    margin: 20px;
+}
+.link a {
+    color: white;
+}
+
+  
+
+
+
+section div {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+
+section a {
+    width: 15%;
+    text-decoration: none;
+    padding: 10px;
+}
+
+section a img {
+    width: 100%;
+}
+
+
+
+#google {
+    color: #4285F4;
+}
+#meta {
+    color: #0668E1;
+}
+#microsoft {
+    color: #00a1f1;
+}
+#amazon {
+    color: #FF9900;
+}
+#netflix {
+    color: #E50914;
+}
+#apple {
+    color: #000000;
+}
+#linkedin {
+    color: #0077b5;
+}
+#ibm {
+    color: #000000;
+}
+#hackerrank {
+    color: rgb(21, 144, 70);
+}
+#dell {
+    color: #007DB8;
+}
+#hp {
+    color: #0096D6;
+}
+#intel {
+    color: #0071c5;
+}
+#intuit {
+    color: #365ebf ;
+}
+#goldman_sachs {
+    color: #7D9CC0;
+}
+#morgan_stanley {
+    color: #000000;
+}
+#mathworks {
+    color: #0072BD;
+}
+#sharechat {
+    color: #00a1f1;
+}
+#cisco {
+    color: #049fd9;
+}
+#oracle {
+    color: #f80000
+}
+#adobe {
+    color: #f40f02;
+}
+#deloitte {
+    color: #000000;
+}
+#uber {
+    color: #000000;
+}
+#paytm {
+    color: #00baf2;
+}
+#flipkart {
+    color: #F8E831;
+}
+#twitter {
+    color: #00acee;
+}
+#paypal {
+    color: #3b7bbf ;
+}
+#tcs {
+    color: #006690;
+}
+#swiggy {
+    color: #FF6600;
+}
+#zomato {
+    color: #cb202d;
+}
+#meesho{
+    color: #F43397;
+}
+
+
+
+#ghc {
+    color: #00a1f1;
+}
+#google_developer_events {
+    color: #4285F4;
+}
+
+
+
+#google_conference_scholarship {
+    color: #4285F4;
+}
+#google_generation_scholarship {
+    color: #4285F4;
+}
+#lift {
+    color: #1793d1;
+}
+#nutanix {
+    color: rgb(3, 78, 162);
+}
+#lime {
+    color: #000000;
+}
+
+
+#gsoc {
+    color: #FFD700;
+}
+#gssoc {
+    color: #ff8400;
+}
+
+
+
+
+#mlh_fellowship {
+    color: #003a90;
+}
+#we_fellow {
+    color: #4285F4;
+}
+
+
+
+#nse_talent_sprint {
+    color: #003a90;
+}
+#programs_by_google {
+    color: #4285F4;
+}
+#codess {
+    color: #00A4EF;
+}
+#amazon_wow {
+    color: #FF9900;;
+}
+#women_techmakers {
+    color: rgb(79, 195, 247);
+}
+#google_internships {
+    color: #4285F4;
+}
+#google_developer {
+    color: #4285F4;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    #SmartCareers {
+        height: 40%;
+        width: 90%;
+    }
+
+    section a {
+        width: 45%;
+    }
+    
+}
+

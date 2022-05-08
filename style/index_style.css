@@ -141,6 +141,8 @@ section a {
 
 section a:hover {
     background-color: rgb(179, 179, 179);
+    width: 18%;
+    transition: 1s;
 }
 
 

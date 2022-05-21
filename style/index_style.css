@@ -157,6 +157,9 @@ section a:hover {
     section a {
         width: 100%;
     }
+    section a:hover {
+        width: 100%;
+    }
 
     nav {
         flex-direction: column;
